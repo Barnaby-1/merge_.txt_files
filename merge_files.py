@@ -7,9 +7,7 @@ merged_elements = []
 
 # removes "\n" from elements
 def remove_new_line(element):
-    if element.endswith("\n"):
-        element = element.removesuffix("\n")
-    return element
+    return element.removesuffix("\n")
 
 # checks there are 2 files to merge
 if len(files) == 2:
